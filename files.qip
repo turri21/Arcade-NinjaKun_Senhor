@@ -1,3 +1,4 @@
+set_global_assignment -name SDC_FILE Arcade-NinjaKun.sdc
 set_global_assignment -name VHDL_FILE rtl/YM2149_linmix_sep.vhd
 set_global_assignment -name VHDL_FILE rtl/dpram.vhd
 set_global_assignment -name VERILOG_FILE rtl/z80ip.v
