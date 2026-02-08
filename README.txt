@@ -2,6 +2,21 @@
 
 Tested: Working Video 720p, 1080p & Sound.
 
+
+In Nova 2001 the original pcb has a coin sensitivity bug - it resets if coin is dropped too quick.
+There are 3 ways to work that out:
+1st if the coin isn't held down long enough, or is held down too long the game will reset, likewise if coins are inserted too quickly.
+so if you drop it by avoiding these, it should register right.
+
+2nd you can enable the free play mode through the OSD in dip switch settings.
+
+3rd you can launch the hacked game in the _alternatives/_Nova 2001  using the modified mra.
+
+Dev notes: If you wish the main mra to launch the game in free play mode by default, 
+you'll have to change the respective dip bits line to this: 
+
+<dip bits="7" name="Free Play" ids="Yes,No" default="Yes"/>
+
 ---------------------------------------------------------------------------------
 -- 
 -- Arcade: Ninja-Kun  port to MiSTer by MiSTer-X
