@@ -3,7 +3,7 @@
 Tested: Working Video 720p, 1080p & Sound.
 
 
-In Nova 2001 the original pcb has a coin sensitivity bug - it resets if coin is dropped too quick.
+In Nova 2001 the original pcb has a coin sensitivity bug - it resets if a coin is dropped too quick.
 There are 3 ways to work that out:
 1st if the coin isn't held down long enough, or is held down too long the game will reset, likewise if coins are inserted too quickly.
 Therefore, if you drop it by avoiding these, it should register right.
